@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "damcon",
+  "version": "1.0.1",
+
+  "name": "Damage Controlability",
+  "description": "Gives you a command to control damage in your game",
+  "authors": [
+    "BBTheB"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.bbtheb.damagecontrolability.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
